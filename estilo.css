@@ -157,8 +157,10 @@ footer{
 
 @media (max-width:700px){
     h1{font-size: 40px; top: 40px;}
-    #game{width: 90%; height: 560px;}
-    #jogador{position: static;}
+    main{justify-content: space-around;}
+    #game{width: 90%; height: 560px; position: relative;}
+    #jogador{position: absolute; font-size: 30px; bottom: 50px;}
+    #jogador span{font-size: 35px;}
     #msgWin{font-size: 35px; position: absolute; top: 40%;}
     #msgWin span{margin: 5px;}
     a{font-size: 50px;}
