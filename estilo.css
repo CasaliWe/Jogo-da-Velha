@@ -1,0 +1,155 @@
+*{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+body{
+     font-family: 'Caveat', cursive;
+     color: blue;
+     background-image: url(caderno.jpg);
+}
+
+main{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+h1{
+     font-size: 48px;
+     position: absolute;
+     top: 20px;
+}
+
+#game{
+     height: 500px;
+     margin-top: 30px;
+     width: 500px;
+     padding: 10px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+
+#linha1 {
+     border-bottom: 2px solid black;
+     width: 90%;
+     height: 20%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+#linha2 {
+    border-bottom: 2px solid black;
+    width: 90%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#linha3 {
+    width: 90%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#game button {
+       height: 100%;
+       width: 30%;
+       background-color: transparent;
+       border: 1px solid transparent;
+       color: blue;
+       font-size: 55px;
+       font-family: 'Caveat', cursive;
+}
+
+#game button:hover {
+    background-color: rgba(0, 0, 0, 0.075);
+    cursor: pointer;
+}
+
+#linha1 button:nth-child(1), #linha2 button:nth-child(1), #linha3 button:nth-child(1){
+         border-right: 2px solid black;
+}
+
+#linha1 button:nth-child(3), #linha2 button:nth-child(3), #linha3 button:nth-child(3){
+    border-left: 2px solid black;
+}
+
+#jogador{
+       position: absolute;
+       bottom: 65px;
+       font-size:35px;
+       color: black;
+}
+
+#jogador span{
+    color: red;
+    font-size: 50px;
+}
+
+
+#msgWin{
+      position: absolute;
+      top: 45%;
+      font-size: 50px;
+      display: none;
+}
+
+#empate{
+      position: absolute;
+      top: 45%;
+      font-size: 50px;
+      display: none;
+}
+
+#playerWin{
+     color: red;
+     font-size: 55px;
+}
+
+a{
+     text-decoration: none;
+     color: red;
+     font-size: 40px;
+     position: absolute;
+     bottom: 25%;
+     display: none;
+}
+
+a:hover{
+    color: black;
+    cursor: pointer;
+    transition: all 500ms;
+}
+
+
+footer{
+      position: absolute;
+      bottom: 10px;
+      width: 100%;
+      text-align: center;
+      color: black;
+      padding: 5px;
+}
+
+
+
+
+
+
+@media (max-width:700px){
+    h1{font-size: 30px; top: 45px;}
+    #game{width: 370px;}
+}
