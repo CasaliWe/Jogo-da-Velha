@@ -152,4 +152,5 @@ footer{
 @media (max-width:700px){
     h1{font-size: 30px; top: 45px;}
     #game{width: 370px;}
+    #msgWin{font-size: 30px;}
 }
