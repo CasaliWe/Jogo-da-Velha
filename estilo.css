@@ -159,7 +159,7 @@ footer{
     h1{font-size: 40px; top: 40px;}
     #game{width: 90%; height: 560px;}
     #jogador{position: static;}
-    #msgWin{font-size: 40px; position: absolute; top: 40%;}
+    #msgWin{font-size: 35px; position: absolute; top: 40%;}
     #msgWin span{margin: 5px;}
     a{font-size: 50px;}
     #empate{font-size: 70px; position: absolute; top: 40%;}
