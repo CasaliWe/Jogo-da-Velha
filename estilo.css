@@ -7,6 +7,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 
+
 body{
      font-family: 'Caveat', cursive;
      color: blue;
@@ -149,8 +150,14 @@ footer{
 
 
 
+
+
 @media (max-width:700px){
-    h1{font-size: 30px; top: 45px;}
-    #game{width: 370px;}
-    #msgWin{font-size: 30px;}
+    h1{font-size: 50px; top: 40px;}
+    #game{width: 90%; height: 560px;}
+    #jogador{bottom: 50px;}
+    #msgWin{font-size: 50px; position: absolute; top: 40%;}
+    #msgWin span{margin: 5px;}
+    a{font-size: 50px;}
+    #empate{font-size: 70px; position: absolute; top: 40%;}
 }

@@ -170,7 +170,7 @@ function verficiarV(){
       })
 
 
-    win(valueBtnX,valueBtnO);
+      win(valueBtnX,valueBtnO);
 }
 
 
